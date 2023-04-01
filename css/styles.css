@@ -45,7 +45,7 @@
   color: #404bbf;
 }
 .contact-phone-number {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -55,4 +55,31 @@
 .contact-phone-number:hover,
 .contact-phone-number:focus {
   color: #404bbf;
+}
+/* основний вміст */
+.page-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #FFFFFF; */
+}
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: OCEAN #404bbf;
 }
