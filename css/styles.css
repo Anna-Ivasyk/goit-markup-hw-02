@@ -9,6 +9,7 @@
   --secondary-font-size: 20px;
   --primary-line-height: 1.5;
 }
+/* скидання дефолтних стилів */
 .list {
   list-style: none;
 }
@@ -39,7 +40,6 @@ body {
 .description-item-theme-dark {
   color: #f4f4fd;
 }
-/* шапка */
 .logotype {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -57,6 +57,8 @@ body {
 .logotype-item {
   color: var(--accent-color);
 }
+/* /кінець стилів для компонентів */
+/* шапка */
 .menu-link {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -88,7 +90,7 @@ body {
   color: var(--secondary-accent-color);
 }
 /* /шапка */
-/* основний вміст */
+/* основна секція */
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -112,6 +114,7 @@ body {
 .modal-btn:focus {
   background-color: var(--secondary-accent-color);
 }
+/* /Кінець основної секції */
 /* Сторінка Портфоліо */
 .portfolio-btn {
   font-family: var(--primary-font);
