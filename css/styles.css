@@ -51,13 +51,13 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-page-color);
+  color: var(--accent-color);
 }
 .logotypy-theme-dark {
   color: #f4f4fd;
 }
 .logotype-item {
-  color: var(--accent-color);
+  color: var(--secondary-page-color);
 }
 /* /кінець стилів для компонентів */
 /* шапка */
