@@ -26,6 +26,15 @@ body {
   background-color: var(--primary-background-color);
 }
 /* компоненти */
+.description-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-page-color);
+}
 .suptitle {
   font-weight: 500;
   font-size: var(--secondary-font-size);
@@ -36,6 +45,7 @@ body {
 .description-item {
   font-family: var(--primary-font);
   font-weight: 400;
+  line-height: var(--primary-line-height);
   font-size: var(--primary-font-size);
   letter-spacing: 0.02em;
   color: var(--primery-page-color);
@@ -54,11 +64,13 @@ body {
   text-transform: uppercase;
   color: var(--accent-color);
 }
-.logotypy-theme-dark {
-  color: #f4f4fd;
-}
+
 .logotype-item {
   color: var(--secondary-page-color);
+}
+
+.logotype-item-theme-dark {
+  color: #f4f4fd;
 }
 /* /кінець стилів для компонентів */
 /* шапка */
@@ -117,6 +129,18 @@ body {
   background-color: var(--secondary-accent-color);
 }
 /* /Кінець основної секції */
+/* Team section */
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+/* Кінець Team section */
+/* Footer */
+.footer {
+  background-color: var(--accent-background-color);
+}
 /* Сторінка Портфоліо */
 .portfolio-btn {
   font-family: var(--primary-font);
