@@ -3,9 +3,10 @@
   --secondary-font: 'Raleway', sans-serif;
   --accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
-  --primery-page-color: #434455;
-  --secondary-page-color: #2e2f42;
+  --primery-page-color-dark: #434455;
+  --secondary-page-color-dark: #2e2f42;
   --text-color-light: #ffffff;
+  --secondary-text-color-light: #f4f4fd;
   --primary-font-size: 16px;
   --secondary-font-size: 20px;
   --primary-line-height: 1.5;
@@ -24,7 +25,7 @@
 body {
   font-family: var(--primary-font);
   font-size: var(--primary-font-size);
-  color: var(--primery-page-color);
+  color: var(--primery-page-color-dark);
   line-height: var(--primary-line-height);
   background-color: var(--primary-background-color);
 }
@@ -36,14 +37,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--secondary-page-color);
+  color: var(--secondary-page-color-dark);
 }
 .suptitle {
   font-weight: 500;
   font-size: var(--secondary-font-size);
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--secondary-page-color);
+  color: var(--secondary-page-color-dark);
 }
 .description-item {
   font-family: var(--primary-font);
@@ -51,10 +52,10 @@ body {
   line-height: var(--primary-line-height);
   font-size: var(--primary-font-size);
   letter-spacing: 0.02em;
-  color: var(--primery-page-color);
+  color: var(--primery-page-color-dark);
 }
 .description-item-theme-dark {
-  color: #f4f4fd;
+  color: var(--secondary-text-color-light);
 }
 .logotype {
   font-family: var(--secondary-font);
@@ -69,18 +70,18 @@ body {
 }
 
 .logotype-item {
-  color: var(--secondary-page-color);
+  color: var(--secondary-page-color-dark);
 }
 
 .logotype-item-theme-dark {
-  color: #f4f4fd;
+  color: var(--secondary-text-color-light);
 }
 /* /кінець стилів для компонентів */
 /* шапка */
 .menu-link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: var(--secondary-page-color);
+  color: var(--secondary-page-color-dark);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -92,7 +93,7 @@ body {
 .contact-link {
   font-weight: 400;
   letter-spacing: 0.02em;
-  color: var(--primery-page-color);
+  color: var(--primery-page-color-dark);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -135,7 +136,7 @@ body {
   background-color: var(--secondary-bg-color);
 }
 .team-list-item {
-  background-color: #ffffff;
+  background-color: var(--primary-background-color);
 }
 /* Кінець Team section */
 /* футер */
