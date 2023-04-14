@@ -1,6 +1,6 @@
 :root {
-  --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   --accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
   --primery-page-color: #434455;
@@ -146,9 +146,6 @@ body {
   font-weight: 500;
   font-size: var(--primary-font-size);
   line-height: var(--primary-line-height);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--accent-color);
   background: #f4f4fd;
